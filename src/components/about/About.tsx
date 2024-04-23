@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex justify-between flex-wrap items-center gap-10 py-10">
+    <div className="flex justify-between flex-wrap lg:flex-nowrap items-center gap-10 py-10">
       <div>
         <Image src={aboutImg} alt="about_us" className="about_img" />
       </div>
